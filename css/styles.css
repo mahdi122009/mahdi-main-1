@@ -775,12 +775,20 @@ label {
 
 .vgv {
   color:  #fff;
-  text-align: center;
   font-family: var(--h-1-font-family, "NotoSans-Bold", sans-serif);
-  font-size: var(--h-1-font-size, 24px);
-  font-weight: var(--h-1-font-weight, 700);
-  position: relative;
-  width: 240px;
+  font-size:24px;
+  font-weight:  700;
+  width: 250px;
   padding-top: 70px;
-    left: 432px;
+    padding-left: 432px;
+}
+
+.p {
+  color:  white;
+  font-weight:  700;
+  font-size:  24px;
+  padding-top: 70px;
+  padding-left: 1070px;
+  margin-top: -90px;
+    margin-bottom: 1rem;
 }
