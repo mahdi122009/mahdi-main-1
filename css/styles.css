@@ -16,7 +16,7 @@
 
 
 
-.slider {
+.slider1 {
     width: 1910.095px;
     height: 200px;
     padding-top: 70px;
@@ -80,9 +80,9 @@ padding-top: 266px;
 
     color:  #868585;
     margin-bottom: 14px;
-    font-family: var(--h-1-font-family, "NotoSans-Bold", sans-serif);
-    font-size: var(--h-1-font-size, 24px);
-    font-weight: var(--h-1-font-weight, 700);
+    font-family:  "NotoSans-Bold", sans-serif;
+    font-size:  24px;
+    font-weight:  700;
     position: relative;
     width: 198px;
     padding-top: 100px;
@@ -95,16 +95,16 @@ padding-top: 266px;
   position: relative;
   object-fit: cover;
   left: 355px;
-  top: 235px;
+  top: 230px;
 }
 
 .pro {
     
     color:  #303030;
    
-    font-family: var(--h-2-font-family, "NotoSans-Bold", sans-serif);
-    font-size: var(--h-2-font-size, 18px);
-    font-weight: var(--h-2-font-weight, 700);
+    font-family: "NotoSans-Bold", sans-serif;
+    font-size:  18px;
+    font-weight: 700;
     position: relative;
     width: 510px;   
     padding-top: 25px;
@@ -114,9 +114,9 @@ padding-top: 266px;
 
         color:  #303030;
        
-        font-family: var(--text-14-px-font-family, "NotoSans-Regular", sans-serif);
-        font-size: var(--text-14-px-font-size, 14px);
-        font-weight: var(--text-14-px-font-weight, 400);
+        font-family:  "NotoSans-Regular", sans-serif;
+        font-size:  14px;
+        font-weight:  400;
         position: relative;
         width: 510px;
 
@@ -126,9 +126,9 @@ padding-top: 266px;
 .tit {
     color:  #303030;
    
-    font-family: var(--h-2-font-family, "NotoSans-Bold", sans-serif);
-    font-size: var(--h-2-font-size, 18px);
-    font-weight: var(--h-2-font-weight, 700);
+    font-family: "NotoSans-Bold", sans-serif;
+    font-size:  18px;
+    font-weight: 700;
     position: relative;
     width: 510px;
     padding-top: 50px;
@@ -138,9 +138,9 @@ padding-top: 266px;
 .cec {
     color:  #303030;
    
-    font-family: var(--text-14-px-font-family, "NotoSans-Regular", sans-serif);
-    font-size: var(--text-14-px-font-size, 14px);
-    font-weight: var(--text-14-px-font-weight, 400);
+    font-family:  "NotoSans-Regular", sans-serif;
+    font-size:  14px;
+    font-weight:  400;
     position: relative;
     width: 510px;
 }
@@ -148,9 +148,9 @@ padding-top: 266px;
 .zaz {
     color: #303030;
    
-    font-family: var(--h-2-font-family, "NotoSans-Bold", sans-serif);
-    font-size: var(--h-2-font-size, 18px);
-    font-weight: var(--h-2-font-weight, 700);
+    font-family: "NotoSans-Bold", sans-serif;
+    font-size:  18px;
+    font-weight: 700;
     position: relative;
     width: 510px;
     padding-top: 50px;
@@ -159,9 +159,9 @@ padding-top: 266px;
 .sas {
     color: #303030;
    
-    font-family: var(--text-14-px-font-family, "NotoSans-Regular", sans-serif);
-    font-size: var(--text-14-px-font-size, 14px);
-    font-weight: var(--text-14-px-font-weight, 400);
+    font-family:  "NotoSans-Regular", sans-serif;
+    font-size:  14px;
+    font-weight:  400;
     position: relative;
     width: 510px;
 }
@@ -169,9 +169,9 @@ padding-top: 266px;
 .kik {
     color:  #303030;
    
-    font-family: var(--h-2-font-family, "NotoSans-Bold", sans-serif);
-    font-size: var(--h-2-font-size, 18px);
-    font-weight: var(--h-2-font-weight, 700);
+    font-family: "NotoSans-Bold", sans-serif;
+    font-size:  18px;
+    font-weight: 700;
     position: relative;
     width: 510px;
     padding-top: 50px;
@@ -180,9 +180,9 @@ padding-top: 266px;
 .mim {
     color: #303030;
    
-    font-family: var(--text-14-px-font-family, "NotoSans-Regular", sans-serif);
-    font-size: var(--text-14-px-font-size, 14px);
-    font-weight: var(--text-14-px-font-weight, 400);
+    font-family:  "NotoSans-Regular", sans-serif;
+    font-size:  14px;
+    font-weight:  400;
     position: relative;
     width: 510px;
     
@@ -203,9 +203,9 @@ padding-left: 0px;
 .ret {
     color:  #868585;
    
-    font-family: var(--h-1-font-family, "NotoSans-Bold", sans-serif);
-    font-size: var(--h-1-font-size, 24px);
-    font-weight: var(--h-1-font-weight, 700);
+    font-family:  "NotoSans-Bold", sans-serif;
+    font-size:  24px;
+    font-weight:  700;
     position: relative;
     width: 217px;
 }
@@ -280,6 +280,16 @@ label {
   display: none;
 }
 
+@media screen and (max-width: 500px) {
+  .tab-label-content .tab-content {
+    width: 80%;
+    margin-left: 10%;
+    top: -106px;
+
+  }
+}
+
+
 @media screen and (max-width: 800px) {
 
 
@@ -326,9 +336,9 @@ label {
 .jyj {
     color:  #303030;
    
-    font-family: var(--text-14-px-font-family, "NotoSans-Regular", sans-serif);
-    font-size: var(--text-14-px-font-size, 14px);
-    font-weight: var(--text-14-px-font-weight, 400);
+    font-family:  "NotoSans-Regular", sans-serif;
+    font-size:  14px;
+    font-weight:  400;
     position: absolute;
     left: 240px;
     top: 1px;
@@ -358,9 +368,9 @@ label {
 
  .gta {
   color:  #303030;
-  font-family: var(--h-2-font-family, "NotoSans-Bold", sans-serif);
-  font-size: var(--h-2-font-size, 18px);
-  font-weight: var(--h-2-font-weight, 700);
+  font-family: "NotoSans-Bold", sans-serif;
+  font-size:  18px;
+  font-weight: 700;
   position: relative;
   width: 184px;
   height: 26px;
@@ -370,9 +380,9 @@ label {
 
  .gta1 {
   color: #303030;
-  font-family: var(--text-14-px-font-family, "NotoSans-Regular", sans-serif);
-  font-size: var(--text-14-px-font-size, 14px);
-  font-weight: var(--text-14-px-font-weight, 400);
+  font-family:  "NotoSans-Regular", sans-serif;
+  font-size:  14px;
+  font-weight:  400;
   position: relative;
   width: 230px;
   height: 78.44px;
@@ -382,9 +392,9 @@ label {
  .gta2 {
   color:  #303030;
  
-  font-family: var(--h-2-font-family, "NotoSans-Bold", sans-serif);
-  font-size: var(--h-2-font-size, 18px);
-  font-weight: var(--h-2-font-weight, 700);
+  font-family: "NotoSans-Bold", sans-serif;
+  font-size:  18px;
+  font-weight: 700;
   position: relative;
   width: 160px;
   padding-top: 30px;
@@ -393,9 +403,9 @@ label {
  .gta3 {
   color:  #303030;
  
-  font-family: var(--text-14-px-font-family, "NotoSans-Regular", sans-serif);
-  font-size: var(--text-14-px-font-size, 14px);
-  font-weight: var(--text-14-px-font-weight, 400);
+  font-family:  "NotoSans-Regular", sans-serif;
+  font-size:  14px;
+  font-weight:  400;
   position: relative;
   width: 235px;
   
@@ -405,9 +415,9 @@ label {
 
   color:  #303030;
  
-  font-family: var(--h-2-font-family, "NotoSans-Bold", sans-serif);
-  font-size: var(--h-2-font-size, 18px);
-  font-weight: var(--h-2-font-weight, 700);
+  font-family: "NotoSans-Bold", sans-serif;
+  font-size:  18px;
+  font-weight: 700;
   position: relative;
   width: 160px;
   height: 26px;
@@ -419,9 +429,9 @@ label {
 .gta5 {
   color:  #303030;
  
-  font-family: var(--text-14-px-font-family, "NotoSans-Regular", sans-serif);
-  font-size: var(--text-14-px-font-size, 14px);
-  font-weight: var(--text-14-px-font-weight, 400);
+  font-family:  "NotoSans-Regular", sans-serif;
+  font-size:  14px;
+  font-weight:  400;
   position: relative;
   width: 235px;
   height: 78.44px;
@@ -432,9 +442,9 @@ label {
 .gta6 {
   color: #303030;
  
-  font-family: var(--h-2-font-family, "NotoSans-Bold", sans-serif);
-  font-size: var(--h-2-font-size, 18px);
-  font-weight: var(--h-2-font-weight, 700);
+  font-family: "NotoSans-Bold", sans-serif;
+  font-size:  18px;
+  font-weight: 700;
   position: relative;
   width: 160px;
   height: 28px;
@@ -445,9 +455,9 @@ label {
 .gta7 {
   color:  #303030;
  
-  font-family: var(--text-14-px-font-family, "NotoSans-Regular", sans-serif);
-  font-size: var(--text-14-px-font-size, 14px);
-  font-weight: var(--text-14-px-font-weight, 400);
+  font-family:  "NotoSans-Regular", sans-serif;
+  font-size:  14px;
+  font-weight:  400;
   position: relative;
   width: 235px;
   left: 300px;
@@ -464,9 +474,9 @@ label {
 .gta9{
   color:  #303030;
  
-  font-family: var(--h-2-font-family, "NotoSans-Bold", sans-serif);
-  font-size: var(--h-2-font-size, 18px);
-  font-weight: var(--h-2-font-weight, 700);
+  font-family: "NotoSans-Bold", sans-serif;
+  font-size:  18px;
+  font-weight: 700;
   position: relative;
   width: 600px;
   height: 130px;
@@ -485,8 +495,8 @@ label {
   color:  #ffffff;
   text-align: center;
   font-family: var(--discriptor-font-family, "NotoSans-Regular", sans-serif);
-  font-size: var(--discriptor-font-size, 42px);
-  font-weight: var(--discriptor-font-weight, 400);
+  font-size:  42px;
+  font-weight:  400;
   position: relative;
   bottom: 420px;
 }
@@ -500,11 +510,12 @@ label {
 .gta10 {
   color:  #868585;
  
-  font-family: var(--h-1-font-family, "NotoSans-Bold", sans-serif);
-  font-size: var(--h-1-font-size, 24px);
-  font-weight: var(--h-1-font-weight, 700);
+  font-family:  "NotoSans-Bold", sans-serif;
+  font-size:  24px;
+  font-weight:  700;
   position: relative;
   width: 275px;
+top: -50px; 
 }
 
 .rectangle-11 {
@@ -518,9 +529,9 @@ label {
   color:  #303030;
   display: flex;
  gap:30px;
-  font-family: var(--h-2-font-family, "NotoSans-Bold", sans-serif);
-  font-size: var(--h-2-font-size, 18px);
-  font-weight: var(--h-2-font-weight, 700);
+  font-family: "NotoSans-Bold", sans-serif;
+  font-size:  18px;
+  font-weight: 700;
   position: relative;
   width: 478px;
   left: 560px;
@@ -531,9 +542,9 @@ label {
   color:  #303030;
   display: flex;
  gap:15px;
-  font-family: var(--text-14-px-font-family, "NotoSans-Regular", sans-serif);
-  font-size: var(--text-14-px-font-size, 14px);
-  font-weight: var(--text-14-px-font-weight, 400);
+  font-family:  "NotoSans-Regular", sans-serif;
+  font-size:  14px;
+  font-weight:  400;
   position: relative;
   width: 549px;
   height: 21px;
@@ -545,9 +556,9 @@ label {
   color:  #303030;
   display: flex;
   gap:15px;
-  font-family: var(--text-14-px-font-family, "NotoSans-Regular", sans-serif);
-  font-size: var(--text-14-px-font-size, 14px);
-  font-weight: var(--text-14-px-font-weight, 400);
+  font-family:  "NotoSans-Regular", sans-serif;
+  font-size:  14px;
+  font-weight:  400;
   position: relative;
   width: 549px;
   left: 580px;
@@ -558,9 +569,9 @@ label {
   color: #303030;
   display: flex;
   gap:15px;
-  font-family: var(--text-14-px-font-family, "NotoSans-Regular", sans-serif);
-  font-size: var(--text-14-px-font-size, 14px);
-  font-weight: var(--text-14-px-font-weight, 400);
+  font-family:  "NotoSans-Regular", sans-serif;
+  font-size:  14px;
+  font-weight:  400;
   position: relative;
   width: 549px;
   left: 580px;
@@ -570,9 +581,9 @@ label {
   color:  #303030;
  display: flex;
  gap: 15px;
-  font-family: var(--text-14-px-font-family, "NotoSans-Regular", sans-serif);
-  font-size: var(--text-14-px-font-size, 14px);
-  font-weight: var(--text-14-px-font-weight, 400);
+  font-family:  "NotoSans-Regular", sans-serif;
+  font-size:  14px;
+  font-weight:  400;
   position: relative;
   width: 610px;
   left: 580px;
@@ -601,9 +612,9 @@ label {
 
 .gta20 {
   color:  #868585;
-  font-family: var(--h-1-font-family, "NotoSans-Bold", sans-serif);
-  font-size: var(--h-1-font-size, 24px);
-  font-weight: var(--h-1-font-weight, 700);
+  font-family:  "NotoSans-Bold", sans-serif;
+  font-size:  24px;
+  font-weight:  700;
   position: relative;
   width: 370px;
   padding-bottom: 10px;
@@ -612,9 +623,9 @@ label {
 ._01 {
   color: #868585;
  
-  font-family: var(--text-14-px-font-family, "NotoSans-Regular", sans-serif);
-  font-size: var(--text-14-px-font-size, 14px);
-  font-weight: var(--text-14-px-font-weight, 400);
+  font-family:  "NotoSans-Regular", sans-serif;
+  font-size:  14px;
+  font-weight:  400;
   position: relative;
   top: 60px;
 }
@@ -622,18 +633,18 @@ label {
 .gta21 {
   color:  #303030;
  
-  font-family: var(--h-2-font-family, "NotoSans-Bold", sans-serif);
-  font-size: var(--h-2-font-size, 18px);
-  font-weight: var(--h-2-font-weight, 700);
+  font-family: "NotoSans-Bold", sans-serif;
+  font-size:  18px;
+  font-weight: 700;
   position: relative;
   top: 70px;
 }
 
 .gta22 {
   color: #303030;
-  font-family: var(--text-14-px-font-family, "NotoSans-Regular", sans-serif);
-  font-size: var(--text-14-px-font-size, 14px);
-  font-weight: var(--text-14-px-font-weight, 400);
+  font-family:  "NotoSans-Regular", sans-serif;
+  font-size:  14px;
+  font-weight:  400;
   position: relative;
   width: 510px;
   top: 80px;
@@ -641,27 +652,27 @@ label {
 
 ._02 {
   color:  #868585;
-  font-family: var(--text-14-px-font-family, "NotoSans-Regular", sans-serif);
-  font-size: var(--text-14-px-font-size, 14px);
-  font-weight: var(--text-14-px-font-weight, 400);
+  font-family:  "NotoSans-Regular", sans-serif;
+  font-size:  14px;
+  font-weight:  400;
   position: relative;
   top: 95px;
 }
 
 .gta23 {
   color:  #303030;
-  font-family: var(--h-2-font-family, "NotoSans-Bold", sans-serif);
-  font-size: var(--h-2-font-size, 18px);
-  font-weight: var(--h-2-font-weight, 700);
+  font-family: "NotoSans-Bold", sans-serif;
+  font-size:  18px;
+  font-weight: 700;
   position: relative;
   top: 105px;
 }
 
 .gta24 {
   color: #303030;
-  font-family: var(--text-14-px-font-family, "NotoSans-Regular", sans-serif);
-  font-size: var(--text-14-px-font-size, 14px);
-  font-weight: var(--text-14-px-font-weight, 400);
+  font-family:  "NotoSans-Regular", sans-serif;
+  font-size:  14px;
+  font-weight:  400;
   position: relative;
   width: 510px;
   top: 110px;
@@ -669,27 +680,27 @@ label {
 
 ._03 {
   color: #868585;
-  font-family: var(--text-14-px-font-family, "NotoSans-Regular", sans-serif);
-  font-size: var(--text-14-px-font-size, 14px);
-  font-weight: var(--text-14-px-font-weight, 400);
+  font-family:  "NotoSans-Regular", sans-serif;
+  font-size:  14px;
+  font-weight:  400;
   position: relative;
   top: 125px;
 }
 
 .gta25 {
   color:  #303030;
-  font-family: var(--h-2-font-family, "NotoSans-Bold", sans-serif);
-  font-size: var(--h-2-font-size, 18px);
-  font-weight: var(--h-2-font-weight, 700);
+  font-family: "NotoSans-Bold", sans-serif;
+  font-size:  18px;
+  font-weight: 700;
   position: relative;
   top: 130px;
 }
 
 .gta26 {
   color:  #303030;
-  font-family: var(--text-14-px-font-family, "NotoSans-Regular", sans-serif);
-  font-size: var(--text-14-px-font-size, 14px);
-  font-weight: var(--text-14-px-font-weight, 400);
+  font-family:  "NotoSans-Regular", sans-serif;
+  font-size:  14px;
+  font-weight:  400;
   position: relative;
   width: 510px;
   top:135px ;
@@ -697,9 +708,9 @@ label {
 
 ._04 {
   color:  #868585;
-  font-family: var(--text-14-px-font-family, "NotoSans-Regular", sans-serif);
-  font-size: var(--text-14-px-font-size, 14px);
-  font-weight: var(--text-14-px-font-weight, 400);
+  font-family:  "NotoSans-Regular", sans-serif;
+  font-size:  14px;
+  font-weight:  400;
   position: relative;
   width: 18px;
   height: 15px;
@@ -708,18 +719,18 @@ label {
 
 .gta27 {
   color:  #303030;
-  font-family: var(--h-2-font-family, "NotoSans-Bold", sans-serif);
-  font-size: var(--h-2-font-size, 18px);
-  font-weight: var(--h-2-font-weight, 700);
+  font-family: "NotoSans-Bold", sans-serif;
+  font-size:  18px;
+  font-weight: 700;
   position: relative;
   top: 155px;
 }
 
 .gta28 {
   color:  #303030;
-  font-family: var(--text-14-px-font-family, "NotoSans-Regular", sans-serif);
-  font-size: var(--text-14-px-font-size, 14px);
-  font-weight: var(--text-14-px-font-weight, 400);
+  font-family:  "NotoSans-Regular", sans-serif;
+  font-size:  14px;
+  font-weight:  400;
   position: relative;
   width: 510px;
   top: 160px;
@@ -727,9 +738,9 @@ label {
 
 ._05 {
   color:  #868585;
-  font-family: var(--text-14-px-font-family, "NotoSans-Regular", sans-serif);
-  font-size: var(--text-14-px-font-size, 14px);
-  font-weight: var(--text-14-px-font-weight, 400);
+  font-family:  "NotoSans-Regular", sans-serif;
+  font-size:  14px;
+  font-weight:  400;
   position: relative;
   width: 18px;
   height: 15px;
@@ -737,18 +748,18 @@ label {
 }
 .gta29 {
   color:  #303030;
-  font-family: var(--h-2-font-family, "NotoSans-Bold", sans-serif);
-  font-size: var(--h-2-font-size, 18px);
-  font-weight: var(--h-2-font-weight, 700);
+  font-family: "NotoSans-Bold", sans-serif;
+  font-size:  18px;
+  font-weight: 700;
   position: relative;
   top: 175px;
 }
 
 .gta30 {
   color:  #303030;
-  font-family: var(--text-14-px-font-family, "NotoSans-Regular", sans-serif);
-  font-size: var(--text-14-px-font-size, 14px);
-  font-weight: var(--text-14-px-font-weight, 400);
+  font-family:  "NotoSans-Regular", sans-serif;
+  font-size:  14px;
+  font-weight:  400;
   position: relative;
   width: 510px;
   top:180px ;
@@ -775,7 +786,7 @@ label {
 
 .vgv {
   color:  #fff;
-  font-family: var(--h-1-font-family, "NotoSans-Bold", sans-serif);
+  font-family:  "NotoSans-Bold", sans-serif;
   font-size:24px;
   font-weight:  700;
   width: 250px;
@@ -791,4 +802,413 @@ label {
   padding-left: 1070px;
   margin-top: -90px;
     margin-bottom: 1rem;
+}
+
+
+.div1 {
+  position: absolute;
+  inset: 0;
+  top: 150px;
+}
+.rectangle-13 {
+  width: 1920px;
+  height: 730px;
+  position: absolute;
+  left: 0px;
+  top: 5053px;
+  object-fit: cover;
+}
+.div2 {
+  width: 1199.04px;
+  height: 51px;
+  position: static;
+}
+
+._1-1 {
+  width: 182px;
+  height: 51px;
+  position: absolute;
+  left: 869px;
+  top: 5683px;
+  overflow: visible;
+}
+.div4 {
+  color:  #fff;
+  text-align: left;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  left: 360px;
+  top: 5693px;
+}
+
+.div7 {
+  width: 510px;
+  height: 30px;
+  position: static;
+}
+
+
+
+.div10 {
+  width: 600px;
+  height: 317px;
+  position: static;
+}
+._103-410 {
+  color:  #fff;
+  text-align: left;
+  font-family:  "NotoSans-Regular", sans-serif;
+  font-size:  18px;
+  font-weight:  400;
+  position: absolute;
+  left: 960px;
+  top: 5296px;
+  width: 600px;
+}
+.div11 {
+  color:  #fff;
+  text-align: left;
+  font-family:  "NotoSans-Regular", sans-serif;
+  font-size:  18px;
+  font-weight:  400;
+  position: absolute;
+  left: 960px;
+  top: 5376px;
+  width: 600px;
+}
+._08-00-20-00 {
+  color:  #fff;
+  text-align: left;
+  font-family:  "NotoSans-Regular", sans-serif;
+  font-size:  18px;
+  font-weight:  400;
+  position: absolute;
+  left: 960px;
+  top: 5511px;
+  width: 600px;
+  height: 22px;
+}
+._7-987-654-54-56-38-067-504-32-57 {
+  color:  #fff;
+  text-align: left;
+  font-family:  "NotoSans-Regular", sans-serif;
+  font-size:  18px;
+  font-weight:  400;
+  position: absolute;
+  left: 960px;
+  top: 5431px;
+  width: 600px;
+}
+._13-1 {
+  color:  #fff;
+  text-align: left;
+  font-family:  "NotoSans-Regular", sans-serif;
+  font-size:  18px;
+  font-weight:  400;
+  position: absolute;
+  left: 960px;
+  top: 5216px;
+  width: 600px;
+}
+.div12 {
+  color:  #fff;
+  text-align: left;
+  font-family: "NotoSans-Bold", sans-serif;
+  font-size:  24px;
+  font-weight:  700;
+  position: absolute;
+  left: 960px;
+  top: 5123px;
+  width: 137px;
+}
+.div13 {
+  color:  #fff;
+  text-align: left;
+  font-family: "NotoSans-Bold", sans-serif;
+  font-size:  24px;
+  font-weight:  700;
+  position: absolute;
+  left: 360px;
+  top: 5123px;
+  width: 282px;
+}
+
+
+.page-title {
+  text-align: center;
+}
+
+.slider-container {
+  position: relative;
+  width: 241px;
+  height: 202px;
+  margin: 0 auto;
+  overflow: hidden;
+  left: -261px;
+  bottom: 186px;
+  padding-bottom: 95px;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 240px;
+    height: 203px;
+  }
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  font-size: 24px;
+  color: white;
+}
+
+.prev-button {
+  left: 40px;
+}
+
+.next-button {
+  right: 50px;
+}
+
+
+
+.sim-slider {
+  max-width: 1000px;
+  min-width: 320px;
+  margin: 20px auto;
+  padding: 30px 50px;
+  background-color: white;
+  bottom: 459px;
+  right: 344px;
+}
+
+/* General styles */
+.sim-slider {
+  position: relative;
+}
+
+.sim-slider-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  position: relative;
+  width: 489px;
+  height: 366px;
+}
+
+.sim-slider-element {
+  width: 100%;
+  transition: opacity 1s ease-in;
+  opacity: 0;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  display: block;
+}
+
+/* Navigation item styles */
+div.sim-slider-arrow-left,
+div.sim-slider-arrow-right {
+  width: 22px;
+  height: 40px;
+  position: absolute;
+  cursor: pointer;
+  opacity: 0.6;
+  z-index: 4;
+  padding-top: 262px;
+}
+
+div.sim-slider-arrow-left {
+  left: 300px;
+  top: 40%;
+  display: block;
+  
+}
+
+div.sim-slider-arrow-right {
+  right: 50px;
+  top: 40%;
+  display: block;
+ 
+}
+
+div.sim-slider-arrow-left:hover {
+  opacity: 1.0;
+}
+
+div.sim-slider-arrow-right:hover {
+  opacity: 1.0;
+}
+
+div.sim-slider-dots {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 3;
+  text-align: center;
+}
+
+span.sim-dot {
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  padding: 0;
+  display: inline-block;
+  background-color: #BBB;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hgh {
+  width: 489px;
+  height: 366px;
+}
+
+
+
+/* Стили для формы */
+form {
+ 
+  margin: 0 auto;
+}
+
+label, input, textarea {
+
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+
+label {
+  cursor: pointer;
+  box-sizing: border-box;
+   display: inline-flex; 
+  justify-content: center;
+  height: 5px;
+  transition: color 0.2s ease;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.modal-body {
+  display: flex;
+  padding: 0;
+  border-radius: 4rem;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.modal-content {
+  border-radius: 4rem;
+  width: 140%;
+  -webkit-box-shadow: -1px -2px 42px -19px rgba(0,0,0,0.74);
+-moz-box-shadow: -1px -2px 42px -19px rgba(0,0,0,0.74);
+box-shadow: -1px -2px 42px -19px rgba(0,0,0,0.74);
+}
+.modal-content h1, .modal-content h2, .modal-content h3 {
+    text-align: center;
+}
+.modal-content h1 {
+  font-size: 1.3em;
+  text-transform: uppercase;
+}
+
+.modal-content h2 {
+    font-size: 1.1em;
+}
+.modal-content h3 {
+  font-size: .8em;
+  letter-spacing: 2px;
+}
+form {
+    font-size: .8em;
+}
+.column {
+  flex: 50%;
+  padding: 10px;
+}
+
+.column#main {
+  flex: 75%;
+  padding: 50px;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+#secondary {
+  background-color: #F9BC35;
+  border-radius: 0 4rem 4rem 0;
+  text-align: center;
+}
+
+#main .form-control {
+  border-radius: 0;
+  font-size: .9em;
+}
+
+.btn {
+  text-transform: uppercase;
+  border-radius: .15rem;
+  width: 200px;
+  padding: .150rem .75rem;
+  margin: 30px auto;
+  font-family: 'PT Sans', sans-serif;
+  letter-spacing: 2px;
+}
+
+.btn-primary {
+  border-color: rgba( 255, 255, 255, 0);
+  background: #f1da36; /* Old browsers */
+background: -moz-linear-gradient(left, #f1da36 0%, #fca86c 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #f1da36 0%,#fca86c 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #f1da36 0%,#fca86c 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+.btn-primary:hover {
+  border-color: rgba( 255, 255, 255, 0);
+}
+
+#main .btn-primary {
+  width: 100%;
+}
+#secondary .btn-primary {
+  background: #f8f9fa4f;
+  color: #000;
+}
+.modal-body label {
+  margin-bottom: 0;
+}
+
+.sec-content {
+  margin-top: 85%;
 }
