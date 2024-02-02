@@ -88,8 +88,13 @@ padding-top: 266px;
   height: 670px;
   position: relative;
   object-fit: cover;
-  left: 360px;
+  left: 366px;
   top: 370px;
+}
+
+.zxz {
+  position: relative;
+  top: 140px;
 }
 
 .pro {
@@ -929,7 +934,18 @@ top: -50px;
   width: 300px;
 }
 
+.vcv{
+  position: relative;
+  left: 467px;
+  bottom: 20px;
+}
 
+.opo {
+  position: relative;
+  bottom: 70px;
+  left: 1037px;
+
+}
 
 .page-title {
   text-align: center;
