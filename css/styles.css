@@ -67,6 +67,9 @@ padding-top: 266px;
 
 .ded{
   padding-left: 450px;
+  position: relative;
+  bottom: 215px;
+
 
 }
 
@@ -198,6 +201,10 @@ padding-left: 0px;
 
 
 }
+
+
+
+
 
 .ret {
     color:  #868585;
@@ -606,8 +613,12 @@ top: -50px;
 
 
 .klk {
+  position: relative;
   padding-left: 0px;
+  bottom: 230px;
 }
+
+
 
 .gta20 {
   color:  #868585;
@@ -1254,6 +1265,6 @@ position: relative;
     }
 .zsz{    
   position: relative;
-  bottom: 4570px;
+  bottom: 4785px;
   left: 360px;
   } 
