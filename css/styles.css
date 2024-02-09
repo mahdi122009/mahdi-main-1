@@ -500,7 +500,7 @@ label {
 .gta8 {
   color:  #ffffff;
   text-align: center;
-  font-family: var(--discriptor-font-family, "NotoSans-Regular", sans-serif);
+  font-family: "NotoSans-Regular", sans-serif;
   font-size:  42px;
   font-weight:  400;
   position: relative;
